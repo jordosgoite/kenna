@@ -11,6 +11,74 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.mydiv{
+  width: 150px;
+  margin-left: 30px;
+  padding-top: 30px;
+  font-weight: bold;
+}
+.mydiv .mylist{
+  font-weight: normal;
+}
 .mylist{
   list-style: none;
+  max-height: 300px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  width: 150px;
+  position: absolute;
+  top:40px;
+  left: 40px;
+  padding: 0;
+}
+.mylist li:focus{
+  background-color: #E2F3E0;
+}
+.mylist li{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+}
+
+.my-input{
+  visibility: hidden;
+}
+.visible{
+  width: 149px;
+  height: 18px;
+  position: absolute;
+  top: 61px;
+  left: 41px;
+  visibility: visible;
+  font-style: italic;
+  font-size: 13px;
+}
+.container{
+  position: relative;
+}
+.clear-button{
+  position: absolute;
+  top: 32px;
+  left: 400px;
+  background-color: transparent;
+  border: 1px solid #4CAF50;
+}
+.first-li{
+  color:gray;
+  font-style: italic;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.mylist .first-li:focus{
+  border: #E2F3E0;
+  background-color: transparent;
+}
+.chevron{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 180px;
+  top: 28px;
+  cursor: pointer;
 }

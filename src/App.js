@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Display from './components/Display';
+import NewDisplay from './components/NewDisplay';
 
 const App =()=>{
   useEffect(()=>{
@@ -14,7 +14,7 @@ const App =()=>{
   }
   const [result, setResult] = useState([]);
   return(
-    <Display data={result} />
+    <NewDisplay data={result} />
   )
 }
 export default App
